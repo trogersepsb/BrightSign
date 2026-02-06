@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YouTube Player</title>
+
+  <!-- Make sure referrer is set correctly -->
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      background: black;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <iframe
+    referrerpolicy="strict-origin-when-cross-origin"
+    src="https://www.youtube.com/watch?v=3S3NGDO3XLo&autoplay=1&rel=0&controls=0&showinfo=0&loop=1"
+    allowfullscreen
+    allow="autoplay; encrypted-media"
+  ></iframe>
+</body>
+</html>
